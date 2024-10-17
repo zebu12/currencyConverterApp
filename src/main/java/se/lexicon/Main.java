@@ -25,11 +25,11 @@ public class Main {
 
                 Currency1.SEKToOther(amount);
                 break;
-            /*case 2:
-                Conv1.USDToOther(amount);
+            case 2:
+                Currency2.USDToOther(amount);
                 break;
-            case 3:
-                Conv2.EuroToOther(amount);
+            /*case 3:
+                Currency3.EuroToOther(amount);
                 break;*/
             default:
                 System.out.println("Invalid choice");
