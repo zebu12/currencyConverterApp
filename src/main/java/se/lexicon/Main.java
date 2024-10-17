@@ -28,9 +28,9 @@ public class Main {
             case 2:
                 Currency2.USDToOther(amount);
                 break;
-            /*case 3:
+            case 3:
                 Currency3.EuroToOther(amount);
-                break;*/
+                break;
             default:
                 System.out.println("Invalid choice");
         }
