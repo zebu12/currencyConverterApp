@@ -13,28 +13,14 @@ public class Currency3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("To which currency do you want to convert? : ");
         int choice = sc.nextInt();
-        switch (choice) {
-
-            case 1:
-
-
-                System.out.println("1 Euro = " + 11.38 + " SEK");
-                System.out.println(amount + " Euro = " + (amount * 11.38) + " SEK");
-
-                break;
-
-
-            case 2:
-
-
-                System.out.println("1 Euro = " + 1.09 + " USD");
-                System.out.println(amount + " Euro = " + (amount * 1.09) + " USD");
-
-                break;
-            default:
-                System.out.println("Invalid choice");
-
-
+        if (choice == 1) {
+            System.out.println("1 Euro = " + 11.38 + " SEK");
+            System.out.println(amount + " Euro = " + (amount * 11.38) + " SEK");
+        } else if (choice == 2) {
+            System.out.println("1 Euro = " + 1.09 + " USD");
+            System.out.println(amount + " Euro = " + (amount * 1.09) + " USD");
+        } else {
+            System.out.println("Invalid choice");
         }
     }
 

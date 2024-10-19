@@ -20,19 +20,14 @@ public class Main {
 
         /* which currency to convert*/
 
-        switch (choice) {
-            case 1:
-
-                Currency1.SEKToOther(amount);
-                break;
-            case 2:
-                Currency2.USDToOther(amount);
-                break;
-            case 3:
-                Currency3.EuroToOther(amount);
-                break;
-            default:
-                System.out.println("Invalid choice");
+        if (choice == 1) {
+            Currency1.SEKToOther(amount);
+        } else if (choice == 2) {
+            Currency2.USDToOther(amount);
+        } else if (choice == 3) {
+            Currency3.EuroToOther(amount);
+        } else {
+            System.out.println("Invalid choice");
         }
 
     }
